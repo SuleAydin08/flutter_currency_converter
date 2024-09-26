@@ -9,7 +9,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  //Hiç bir zaman değişmeyeceği için final yapılabilir.
   final String _apiKey = "7a84f505485039fdc11e055a004986e0";
 
   final String _baseUrl =
@@ -22,7 +21,6 @@ class _HomePageState extends State<HomePage> {
   String _selectedExchangeRate = "USD";
   double _conclusion = 0;
 
-  //Biz bunu uygulama açıldığında çağırmak istediğim için
   @override
   void initState() {
     super.initState();
